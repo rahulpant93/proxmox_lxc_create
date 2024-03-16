@@ -93,7 +93,7 @@ info "Using '$TEMPLATE_STORAGE' for template storage."
 
 # Get container storage
 #### CONTAINER_STORAGE=$(select_storage container) || exit
-CONTAINER_STORAGE=data
+CONTAINER_STORAGE=local
 info "Using '$CONTAINER_STORAGE' for container storage."
 
 # Update LXC template list
